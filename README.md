@@ -2,9 +2,13 @@
 
 Windows 桌面小工具，以小型置顶悬浮窗显示最新黄金报价，也可收起为靠近任务栏的价格条。主报价为 **美元／金衡盎司（USD / troy oz）**，同时显示按美元兑人民币汇率折算的 **人民币／克（CNY / g）**。
 
-## 启动
+## 下载与启动
 
-双击 `dist\GoldMonitor.exe`。成品是独立程序，不需要安装 Python，也不需要 API Key。也可双击项目中的 `launch.vbs`，它会优先启动已打包的 EXE。
+**[下载 Windows 版 GoldMonitor.exe](https://github.com/JhuoW/GoldMonitor/releases/latest/download/GoldMonitor.exe)** · [查看发布版本](https://github.com/JhuoW/GoldMonitor/releases/latest)
+
+下载后双击 `GoldMonitor.exe` 即可启动。成品是独立程序，不需要安装 Python，也不需要 API Key。
+
+通过 Git 克隆或 GitHub 的 **Download ZIP** 获取的是源码，不包含已编译的 EXE。请下载上面的成品，或按下方“构建 EXE”说明运行 `build.ps1`。本地构建后双击 `dist\GoldMonitor.exe`，也可使用项目中的 `launch.vbs` 启动已打包的 EXE。
 
 ## 使用
 
